@@ -11,6 +11,6 @@ Directory of model specifications for these models.
 | USEEIOv2.5.1-phoebe-23 |           408 |                     Commodity |         2017 |                         2023 |
 
 The model specification files use the [useeior Model Specification
-format](https://github.com/USEPA/useeior/blob/master/format_specs/ModelSpecification.md)
+format](https://github.com/cornerstone-data/useeior/blob/master/format_specs/ModelSpecification.md)
 pertaining to the `useeior` release version that is being used to
 generate the factors.
