@@ -16,8 +16,8 @@ SatelliteTable:
     FullName: "Greenhouse Gases"
     Abbreviation: "GHG"
     StaticSource: TRUE
-    StaticFile: "flowsa/FlowBySector/GHG_national_2023_m2_v2.1.0_a37e031.parquet"
-    FileLocation: "DataCommons"
+    StaticFile: "GHG_national_2023_m2_v2.1.0_cda0cd5.parquet?download=1"
+    FileLocation: "Zenodo17048864"
     DataYears: [2023]
     Locations: ["US"]
     SectorListSource: "NAICS"
