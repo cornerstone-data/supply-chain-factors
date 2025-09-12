@@ -18,14 +18,14 @@ install_useeior <- function(SEF_version) {
   }
   if (!"useeior"%in%installed_pkg[, "Package"]) {
     cli::cli_alert_info("Installing useeior v{useeior_ver} (tag @{useeior_tag}) from GitHub...")
-    devtools::install_github(paste0("USEPA/useeior@", useeior_tag))
+    devtools::install_github(paste0("cornerstone-data/useeior@", useeior_tag))
   }
   installed_useeior_ver <- installed_pkg[installed_pkg[, "Package"]=="useeior", "Version"]
   if ("useeior"%in%installed_pkg[, "Package"] && useeior_ver!=installed_useeior_ver) {
     cli::cli_alert_warning(c("A new version of useeior (v{useeior_ver}) will be installed for generating SEF {SEF_version}. ",
                              "The useeior v{installed_useeior_ver} you have installed will be overwritten."))
     cli::cli_alert_info("Installing useeior v{useeior_ver} (tag @{useeior_tag}) from GitHub...")
-    devtools::install_github(paste0("USEPA/useeior@", useeior_tag))
+    devtools::install_github(paste0("cornerstone-data/useeior@", useeior_tag))
   }
 }
 
