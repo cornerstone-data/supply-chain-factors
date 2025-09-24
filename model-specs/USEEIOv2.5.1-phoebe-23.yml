@@ -16,14 +16,14 @@ SatelliteTable:
     FullName: "Greenhouse Gases"
     Abbreviation: "GHG"
     StaticSource: TRUE
-    StaticFile: "GHG_national_2023_m2_v2.1.0_cda0cd5.parquet"
-    FileLocation: "Zenodo17048864"
+    StaticFile: "GHG_national_2023_m2_v2.1.0_c25c206.parquet"
+    FileLocation: "Zenodo17048864" ## Update after publishing GHG datasets
     DataYears: [2023]
     Locations: ["US"]
     SectorListSource: "NAICS"
     SectorListYear: 2017
     SectorListLevel: "6"
-    OriginalFlowSource: "FEDEFLv1.3.1"
+    OriginalFlowSource: "FEDEFLv1.3.2"
     ScriptFunctionCall: "getFlowbySectorCollapsed" #function to call for script
     ScriptFunctionParameters: null
     DataSources:
