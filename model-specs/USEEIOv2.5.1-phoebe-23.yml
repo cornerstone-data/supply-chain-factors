@@ -17,7 +17,7 @@ SatelliteTable:
     Abbreviation: "GHG"
     StaticSource: TRUE
     StaticFile: "GHG_national_2023_m2_v2.1.0_c25c206.parquet"
-    FileLocation: "Zenodo17048864" ## Update after publishing GHG datasets
+    FileLocation: "Zenodo17208591"
     DataYears: [2023]
     Locations: ["US"]
     SectorListSource: "NAICS"
