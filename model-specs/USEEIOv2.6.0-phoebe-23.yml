@@ -1,4 +1,4 @@
-Model: "USEEIOv2.5.1-phoebe-23" 
+Model: "USEEIOv2.6.0-phoebe-23" 
 BaseIOSchema: 2017
 BaseIOLevel: "Detail"
 IOYear: 2017 # Year for IO data
