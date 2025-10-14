@@ -4,7 +4,7 @@ output:
   md_document:
     variant: gfm
 params:
-  dollaryear: 2023
+  dollaryear: 2024
 ---
 
 Generate supply chain GHG emission factors for NAICS-6 Commodities using 2023 GHG data in CO2-equivalent and by gas.
