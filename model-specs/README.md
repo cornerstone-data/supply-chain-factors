@@ -4,12 +4,13 @@ Directory of model specifications for these models.
 
 ## Model Descriptions
 
-| Model Name        | \# of Sectors | Commodity (C) or Industry (I) | IO Data Year | GHG and Economic Output Year |
-|:------------------|--------------:|------------------------------:|-------------:|-----------------------------:|
-| USEEIOv2.1.19-GHG |           411 |                     Commodity |         2012 |                         2019 |
-| USEEIOv2.2.22-GHG |           402 |                     Commodity |         2017 |                         2022 |
+| Model Name             | \# of Sectors | Commodity (C) or Industry (I) | IO Data Year | GHG and Economic Output Year |
+|:-----------------------|--------------:|------------------------------:|-------------:|-----------------------------:|
+| USEEIOv2.1.19-GHG      |           411 |                     Commodity |         2012 |                         2019 |
+| USEEIOv2.2.22-GHG      |           402 |                     Commodity |         2017 |                         2022 |
+| USEEIOv2.6.0-phoebe-23 |           408 |                     Commodity |         2017 |                         2023 |
 
 The model specification files use the [useeior Model Specification
-format](https://github.com/USEPA/useeior/blob/master/format_specs/ModelSpecification.md)
+format](https://github.com/cornerstone-data/useeior/blob/master/format_specs/ModelSpecification.md)
 pertaining to the `useeior` release version that is being used to
 generate the factors.

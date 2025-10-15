@@ -1,21 +1,15 @@
-# Supply Chain GHG Emission Factors
-Code to produce the most recent version of the [Supply Chain GHG
-Emission Factors](https://cfpub.epa.gov/si/si_public_record_Report.cfm?dirEntryId=349324).
-Code to produce older versions can be found in [releases](https://github.com/USEPA/supply-chain-factors/releases),
-where the release version number corresponds with Supply Chain GHG
-Emission Factors dataset version.
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# Supply Chain GHG Emission Factors - Cornerstone
+
+This code builds on the USEPA published code to produce a version of the
+[Supply Chain GHG Emission
+Factors](https://cfpub.epa.gov/si/si_public_record_Report.cfm?dirEntryId=349324)
+using the USEEIO model.
 
 Watch this [EPA webinar](https://www.youtube.com/watch?v=pJ8gvZPdcgc) to
 understand how to produce the Factors and how to use them for
 organizational GHG reporting.
-
-Check out
-[Discussions](https://github.com/USEPA/supply-chain-factors/discussions)
-for FAQs. If you don’t see your questions in it, feel free to post them.
-If you want answer a posted question or add comments to a question, you
-are welcome to submit them.
-
-Note that this site is NOT intended to provide guidance on GHG reporting, but rather a resource that might be used in a an estimation of GHG emissions from purchased goods and services.
 
 ## Software and Hardware Requirements
 
@@ -24,8 +18,8 @@ Note that this site is NOT intended to provide guidance on GHG reporting, but ra
     permissions set to install R packages and write files to a local
     project folder.
 3.  A local version of this repository, preferably a
-    [release](https://github.com/USEPA/supply-chain-factors/releases)
-    version to create EPA-verified factors.
+    [release](https://github.com/cornerstone-data/supply-chain-factors/releases)
+    version to create factors.
 
 ### Optional Requirements
 
@@ -70,16 +64,3 @@ stored in this project. The fields used to defined data are described in
 the [format specifications](format-specs/). A markdown file,
 CalculateEmissionFactors.md, is automatically generated during
 execution, but it contains no original content.
-
-# Disclaimer
-
-The United States Environmental Protection Agency (EPA) GitHub project
-code is provided on an “as is” basis and the user assumes responsibility
-for its use. EPA has relinquished control of the information and no
-longer has responsibility to protect the integrity , confidentiality, or
-availability of the information. Any reference to specific commercial
-products, processes, or services by service mark, trademark,
-manufacturer, or otherwise, does not constitute or imply their
-endorsement, recommendation or favoring by EPA. The EPA seal and logo
-shall not be used in any manner to imply endorsement of any commercial
-product or activity by EPA or the United States Government.
