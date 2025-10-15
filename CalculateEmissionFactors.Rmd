@@ -4,7 +4,7 @@ output:
   md_document:
     variant: gfm
 params:
-  dollaryear: 2023
+  dollaryear: 2024
 ---
 
 Generate supply chain GHG emission factors for NAICS-6 Commodities using 2023 GHG data in CO2-equivalent and by gas.
@@ -20,7 +20,7 @@ library(kableExtra)
 price_adjust_matrices <- c("B", "D", "M", "N", "M_margin", "N_margin")
 MajorGHGs <- c("Carbon dioxide", "Methane", "Nitrous oxide")
 dollaryear <- params$dollaryear
-modelname <- "USEEIOv2.5.1-phoebe-23"
+modelname <- "USEEIOv2.6.0-phoebe-23"
 checkModelIOYear(modelname)
 ```
 
