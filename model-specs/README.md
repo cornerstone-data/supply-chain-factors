@@ -8,7 +8,7 @@ Directory of model specifications for these models.
 |:-----------------------|--------------:|------------------------------:|-------------:|-----------------------------:|
 | USEEIOv2.1.19-GHG      |           411 |                     Commodity |         2012 |                         2019 |
 | USEEIOv2.2.22-GHG      |           402 |                     Commodity |         2017 |                         2022 |
-| USEEIOv2.5.1-phoebe-23 |           408 |                     Commodity |         2017 |                         2023 |
+| USEEIOv2.6.0-phoebe-23 |           408 |                     Commodity |         2017 |                         2023 |
 
 The model specification files use the [useeior Model Specification
 format](https://github.com/cornerstone-data/useeior/blob/master/format_specs/ModelSpecification.md)
