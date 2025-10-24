@@ -11,6 +11,9 @@ output:
 This code builds on the USEPA published code to produce a version of the [Supply Chain GHG Emission Factors](https://cfpub.epa.gov/si/si_public_record_Report.cfm?dirEntryId=349324) using the USEEIO model.
 
 Watch this [EPA webinar](https://www.youtube.com/watch?v=pJ8gvZPdcgc) to understand how to produce the Factors and how to use them for organizational GHG reporting.
+Review our list of [Frequently Asked Questions](https://github.com/cornerstone-data/supply-chain-factors/discussions/categories/frequently-asked-questions).
+If you do not see one, add a new post to the [Discussion board](https://github.com/cornerstone-data/supply-chain-factors/discussions).
+
 
 ## Software and Hardware Requirements
 1. [R](https://www.r-project.org/) software, version >= 3.6

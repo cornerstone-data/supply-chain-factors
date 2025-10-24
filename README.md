@@ -10,6 +10,9 @@ using the USEEIO model.
 Watch this [EPA webinar](https://www.youtube.com/watch?v=pJ8gvZPdcgc) to
 understand how to produce the Factors and how to use them for
 organizational GHG reporting.
+Review our list of [Frequently Asked Questions](https://github.com/cornerstone-data/supply-chain-factors/discussions/categories/frequently-asked-questions).
+If you do not see one, add a new post to the [Discussion board](https://github.com/cornerstone-data/supply-chain-factors/discussions).
+
 
 ## Software and Hardware Requirements
 
